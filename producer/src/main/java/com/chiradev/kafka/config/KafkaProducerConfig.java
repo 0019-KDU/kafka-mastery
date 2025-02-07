@@ -9,6 +9,6 @@ public class KafkaProducerConfig {
 
     @Bean
     public NewTopic createTopic() {
-        return new NewTopic("chiradev-1", 3, (short) 1);
+        return new NewTopic("stream-test", 3, (short) 1);
     }
 }
